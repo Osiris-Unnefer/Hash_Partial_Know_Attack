@@ -6,7 +6,7 @@ ensuite la faire passer dans un algorithme de hashage et comparer le hash recher
 
 si vous entrez une petite partie du hash initial vous aurez un grand nombre de "touché" et donc de faux positifs 
 
-
+SEULEMENT DES NOMBRES
 
 English:
 possible attacks: brute force, collision attack, partial collision, attacks with only one tier of the known initial hash
@@ -15,3 +15,6 @@ with this program you can find a hash by simply having half or one tier, the scr
 
 
 if you enter a small part of the initial hash you will have a large number of "touched" and therefore false positives 
+
+
+ONLY NUMBERS
