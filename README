@@ -1,0 +1,17 @@
+Français :
+attaques possibles : brute force, attaque de collisions, collision partielle, attaques avec seulement un tier du hash initial connue
+
+avec ce programme vous pouvez trouver un hash en ayant simplement la moitié ou un tier, le script génére une suite de chiffres pour
+ensuite la faire passer dans un algorithme de hashage et comparer le hash recherché aux hashs crée
+
+si vous entrez une petite partie du hash initial vous aurez un grand nombre de "touché" et donc de faux positifs 
+
+
+
+English:
+possible attacks: brute force, collision attack, partial collision, attacks with only one tier of the known initial hash
+
+with this program you can find a hash by simply having half or one tier, the script generates a sequence of numbers and then pass it through an algorithm of hashage and compare the hash sought to the hashes created
+
+
+if you enter a small part of the initial hash you will have a large number of "touched" and therefore false positives 
