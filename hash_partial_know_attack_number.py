@@ -1,10 +1,10 @@
 import hashlib
 dictionnaires  = {0 : 'md5',1 : 'sha1',2 : 'sha256'}
 print(f"\n\n\n\n\n\n\n\n\n\n\n\n\n   Created by Osiris_Unnefer \n\nhttps://github.com/Osiris-Unnefer\n")
-mot_de_passe = input('\nentrez le hash a trouver (en minuscule)-> ');c='0'
+mot_de_passe = input('\nenter the part of the hash (lowercase letters)-> ');c='0'
 
 
-mode = input("modes disponible -> \n[0] md5 \n[1] sha1 \n[2] sha2-256\n\n")
+mode = input("modes available -> \n[0] md5 \n[1] sha1 \n[2] sha2-256\n\n")
 hash_function = getattr(hashlib, dictionnaires[int(mode)])
 
 while True :
